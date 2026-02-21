@@ -1,0 +1,53 @@
+# Node.js
+node_modules/
+.env
+npm-debug.log
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+backend/node_modules/
+frontend/node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Docker
+backend/.env
+frontend/.env
+
+# Misc
+*.local
+*.cache
+*.pid
+
+# Frontend build
+frontend/dist/
+frontend/build/
+
+# Backend build
+backend/dist/
+backend/build/
+
+# Coverage
+coverage/
+
+# Others
+*.tgz
+*.gz
+*.zip
+*.bak
+*.swp
